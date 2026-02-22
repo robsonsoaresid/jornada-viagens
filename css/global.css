@@ -21,6 +21,14 @@
   --menu-text-weight: 500;
 }
 
+/* CSS RESET */
+body, img, h1, p fiEldset, legend, label, input, select, textarea, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Montserrat";
 }
