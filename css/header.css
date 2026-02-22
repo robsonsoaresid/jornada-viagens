@@ -1,26 +1,41 @@
 header {
-  background-color: var(--brackground-terciary-color);
+  background-color: var(--background-terciary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
-
 .logo {
+  display: inline-block;
   width: 68px;
   height: 64px;
-  display: inline-block;
 }
-
 .navigation-menu {
   margin-top: 24px;
 }
-
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-terciary-color);
 }
-
 nav {
   display: none;
 }
+.list {
+  list-style: none;
+  font-weight: var(--menu-text-weight);
+}
+.list__item {
+  margin: 16px;
+}
+.list__item-links {
+  color: var(--text-secundary-color);
+  text-decoration: none;
+}
+
+
