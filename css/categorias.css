@@ -1,0 +1,22 @@
+.categorias {
+    margin-top: 88px;
+}
+
+.categorias-link {
+  display: inline-block;
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secundary-color);
+  text-decoration: none;
+  text-align: center;
+}
+.categorias-icone {
+  
+  font-weight: var(--text-weight);
+  margin: 41px 0 24px 0;
+}
+.categorias-texto {
+    font-weight: var(--title-weight);
+    font-size: 28px;
+    color: var(--text-primary-color);
+}
