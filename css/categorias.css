@@ -1,5 +1,11 @@
 .categorias {
-    margin-top: 88px;
+  margin-top: 88px;
+}
+.categorias-cards {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 .categorias-link {
@@ -11,12 +17,27 @@
   text-align: center;
 }
 .categorias-icone {
-  
   font-weight: var(--text-weight);
   margin: 41px 0 24px 0;
 }
 .categorias-texto {
-    font-weight: var(--title-weight);
-    font-size: 28px;
-    color: var(--text-primary-color);
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  color: var(--text-primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .categorias-cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .categorias-link{
+    width: 281.25px;
+    height: 220px;
+    border-radius: 8px;
+  }
 }
