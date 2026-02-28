@@ -1,7 +1,47 @@
+.destinations {
+  margin-top: 88px;
+}
+.destination-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.destinations .item {
+  padding: 0 24px;
+}
 .destinations .item header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0;
   margin-bottom: 24px;
+}
+.destination-items .img-item {
+  width: 312px;
+  height: 360px;
+  background: url(../img/Tokyo-mobile.jpg);
+}
+.destination-items .img-item2 {
+  width: 312px;
+  height: 360px;
+  background: url(../img/Osaka-mobile.jpg);
+  margin-top: 40px;
+}
+.destination-items h4 {
+  font-weight: var(--title-weight);
+  font-size: 28px;
+  margin: 24px 0 24px;
+}
+.destination-items p {
+  width: 312px;
+  height: 224px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+.destination-items .button {
+  width: 312px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 24px;
 }
