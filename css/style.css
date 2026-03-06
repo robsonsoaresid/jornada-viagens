@@ -5,6 +5,7 @@
 @import url(offers.css);
 @import url(categorias.css);
 @import url(destination.css);
+@import url(payments.css);
 
 * {
     padding: 0;
