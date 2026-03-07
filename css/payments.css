@@ -42,8 +42,6 @@
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
-  }
-  .payments .content-container {
     justify-content: space-between;
   }
   .content-container .text-contet {
@@ -51,5 +49,6 @@
   }
   .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
