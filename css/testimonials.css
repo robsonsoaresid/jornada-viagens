@@ -41,4 +41,8 @@
     .testimonial-container {
         flex-direction: row;
     }
+    .testimonial-container article header p {
+        width: 384px; 
+    }
 }
+
