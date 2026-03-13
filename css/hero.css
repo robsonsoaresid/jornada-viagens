@@ -3,17 +3,14 @@
   height: 400px;
   width: 100%;
 }
-
 .hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
-
 .bottom-hero .hero-img {
   background: url(../img/bg-botton-hero-mobile.png) no-repeat;
   background-size: cover;
 }
-
 .hero h2 {
   padding: 88px 24px;
   margin: 0;
@@ -22,7 +19,13 @@
   line-height: 1.5;
   text-align: center;
 }
-
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+.travel-packages .hero-img {
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
