@@ -23,8 +23,33 @@
   margin-bottom: 88px;
 }
 .travel-packages .hero-img {
-  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.jpg) no-repeat;
+  height: 468px;
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.jpg)
+    no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.travel-packages .hero-content p {
+  width: 312px;
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 @media screen and (min-width: 768px) {
   .hero .hero-img {
@@ -34,13 +59,27 @@
   }
   .bottom-hero .hero-img {
     height: 400px;
-  background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
-  background-size: cover;
-}
+    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  }
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
   }
+  .travel-packages .hero-img {
+    background: url(../img/travel-packages/japan-bg-bottom-hero-tablet.png)
+      no-repeat;
+    background-size: cover;
+  }
+  .travel-packages .hero-content p {
+    width: 579px;
+    font-size: 32px;
+    font-weight: var(--text-weight);
+    line-height: 150%;
+  }
+   .travel-packages .hero-content {
+    padding: 210px 69px 107px 120px;
+   }
 }
 
 @media screen and (min-width: 1024px) {
@@ -51,12 +90,30 @@
   }
   .bottom-hero .hero-img {
     height: 600px;
-  background: url(../img/bg-bootom-hero-desktop.png) no-repeat;
-  background-size: cover;
-}
+    background: url(../img/bg-bootom-hero-desktop.png) no-repeat;
+    background-size: cover;
+  }
   .hero h2 {
     padding: 104px 120px;
   }
+  .travel-packages .hero-img {
+    background: url(../img/travel-packages/japan-bg-bottom-hero-desktop.png)
+      no-repeat;
+    background-size: cover;
+  }
+  .travel-packages .hero-content {
+    padding: 150px 120px 170px;
+  }
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
+}
+
+@media screen and (min-width: 1440) {
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+  
 }
 
 @media screen and (min-width: 1920px) {
