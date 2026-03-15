@@ -22,10 +22,9 @@
 .travel-packages.hero {
   margin-bottom: 88px;
 }
-.travel-packages .hero-img {
+.travel-packages.hero-img {
   height: 468px;
-  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.jpg)
-    no-repeat;
+  background: url(../img/travel-packages/japan-bg-hero-mobile.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -51,6 +50,11 @@
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.png)
+    no-repeat;
+  background-size: cover;
+}
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -67,8 +71,7 @@
     font-size: 32px;
   }
   .travel-packages .hero-img {
-    background: url(../img/travel-packages/japan-bg-bottom-hero-tablet.png)
-      no-repeat;
+    background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
     background-size: cover;
   }
   .travel-packages .hero-content p {
@@ -77,9 +80,14 @@
     font-weight: var(--text-weight);
     line-height: 150%;
   }
-   .travel-packages .hero-content {
+  .travel-packages .hero-content {
     padding: 210px 69px 107px 120px;
-   }
+  }
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/japan-bg-bottom-hero-tablet.png)
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -97,8 +105,7 @@
     padding: 104px 120px;
   }
   .travel-packages .hero-img {
-    background: url(../img/travel-packages/japan-bg-bottom-hero-desktop.png)
-      no-repeat;
+    background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
     background-size: cover;
   }
   .travel-packages .hero-content {
@@ -107,13 +114,16 @@
   .travel-packages .hero-content p {
     width: 570px;
   }
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/japan-bg-bottom-hero-desktop.png)
+      no-repeat;
+    background-size: cover;
 }
-
+}
 @media screen and (min-width: 1440) {
   .travel-packages .hero-content {
     width: 1200px;
   }
-  
 }
 
 @media screen and (min-width: 1920px) {
