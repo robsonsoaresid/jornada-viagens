@@ -22,7 +22,7 @@
 .travel-packages.hero {
   margin-bottom: 88px;
 }
-.travel-packages.hero-img {
+.travel-packages .hero-img {
   height: 468px;
   background: url(../img/travel-packages/japan-bg-hero-mobile.jpg) no-repeat;
   background-size: cover;
