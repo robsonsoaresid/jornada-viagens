@@ -19,6 +19,9 @@
   line-height: 1.5;
   text-align: center;
 }
+
+  /* paginas viagens */
+
 .travel-packages.hero {
   margin-bottom: 88px;
 }
@@ -55,6 +58,41 @@
     no-repeat;
   background-size: cover;
 }
+
+  /* contact hero */
+.contact.hero {
+  margin-bottom: 88px;
+}
+.contact .hero-img {
+  width: 100%;
+  height: 468px;
+  background: url(../img/contact/contact-student-bg-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+  .contact .hero-content {
+  padding: 81px 24px;
+}
+.contact .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+.contact .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.contact .hero-content p {
+  width: 312px;
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -70,6 +108,7 @@
     padding: 88px 60px;
     font-size: 32px;
   }
+
   .travel-packages .hero-img {
     background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
     background-size: cover;
@@ -88,6 +127,21 @@
       no-repeat;
     background-size: cover;
   }
+  .contact .hero-img {
+  width: 100%;
+  height: 620px;
+  background: url(../img/contact/contact-student-bg-hero-tablet.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ .contact .hero-content {
+  padding: 183px 94px 182px 95px;
+}
+.contact .hero-content p {
+  width: 579px;
+  font-size: 32px;
+  line-height: 150%;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -104,6 +158,7 @@
   .hero h2 {
     padding: 104px 120px;
   }
+
   .travel-packages .hero-img {
     background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
     background-size: cover;
@@ -119,13 +174,25 @@
       no-repeat;
     background-size: cover;
 }
+.contact .hero-img {
+  width: 100%;
+  height: 620px;
+  background: url(../img/contact/contact-student-bg-hero-desktop.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 }
 @media screen and (min-width: 1440) {
   .travel-packages .hero-content {
     width: 1200px;
   }
+  .contact .hero-img {
+    width: 1200px;
+  }
+  .contact .hero-content {
+  padding: 209px 741px 155px 120px;
 }
-
+}
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
