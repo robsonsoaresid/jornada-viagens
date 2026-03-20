@@ -45,6 +45,7 @@ nav {
   font-weight: var(--menu-text-weight);
   font-size: 24px;
 }
+/* aki */
 .list-item-links.active {
   text-decoration: underline;
 }
