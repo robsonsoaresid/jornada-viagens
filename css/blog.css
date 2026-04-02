@@ -1,205 +1,73 @@
-
-
 .chegada-img {
-    width: 312px;
-    height: 360px;
-    background: url(../img/travel-blog/Tokyo-bg-chegada-mobile.png) no-repeat;
-    background-size: cover ;
+  width: 312px;
+  height: 360px;
+  background: url(../img/travel-blog/Tokyo-bg-chegada-mobile.png) no-repeat;
+  background-size: cover;
 }
 
 .acomodacao-img {
-    width: 312px;
-    height: 300px;
-      background: url(../img/travel-blog/Tokyo2-bg-acomodacao-mobile.png) no-repeat;
-    background-size: cover ;
-    margin-bottom: 8px;
+  width: 312px;
+  height: 300px;
+  background: url(../img/travel-blog/Tokyo2-bg-acomodacao-mobile.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 8px;
 }
 
 .reteiroviagem-titulo {
-    margin: 32px 0 24px 0;
-    font-weight: var(--title-weight);
+  margin: 32px 0 24px 0;
+  font-weight: var(--title-weight);
 }
 
 .roteiro-viagem-texto {
-    font-size: 20px;
-    line-height: 32px;
-    margin: 24px 0 24px 0;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 24px 0 24px 0;
 }
 
 span {
-    font-size: 14px;
-    
+  font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.img-posts-first {
+  width: 312px;
+  height: 300px;
+  background: url(../img/travel-blog/Osaka-bg-post-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.img-posts-secund {
+  width: 312px;
+  height: 300px;
+  background: url(../img/travel-blog/Hiroshima-bg-post-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.img-posts-thirdy {
+  width: 312px;
+  height: 300px;
+  background: url(../img/travel-blog/Kyoto-bg-post-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.post-titulo {
+    margin: 16px 0 8px;
+}
+
+.post-texto {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.button {
+    width: 312px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 16px 0 40px;
+}
+
+#button {
+    margin-bottom: 0;
+}
 
 
 
