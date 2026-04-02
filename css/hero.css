@@ -98,6 +98,40 @@
   background-size: cover;
 }
 
+/* blog hiro */
+.blog.hero {
+  margin-bottom: 88px;
+}
+.blog .hero-img {
+  width: 100%;
+  height: 468px;
+  background: url(../img/travel-blog/blog-bg-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog .hero-content {
+  padding: 81px 24px;
+}
+.blog .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secundary-color);
+  font-weight: var(--title-weight);
+}
+.blog .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.blog .hero-content p {
+  width: 312px;
+  font-size: 20px;
+  color: var(--text-secundary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
