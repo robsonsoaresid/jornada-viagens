@@ -75,7 +75,7 @@ span {
     flex-direction: row;
     gap: 24px;
   }
-  .reteiroviagem-titulo.chegada {
+  .reteiro-viagem-titulo.chegada {
     margin: 0;
   }
   .roteiro-viagem-texto.chegada {
@@ -149,4 +149,22 @@ span {
   background: url(../img/travel-blog/Kyoto-bg-post-mobile.png) no-repeat;
   background-size: cover;
 }
+}
+
+@media screen and (min-width: 1440px){ 
+  .post-content {
+    width: 384px;
+  }
+  .chegada-img {
+  width: 588px;
+  background: url(../img/travel-blog/Tokyo-bg-chegada-desktop.png) no-repeat;
+  background-size: cover;
+}
+.roteiro-viagem-texto.chegada {
+    width: 588px;
+    height: 160px;
+  }
+  .roteiro-viagem-texto {
+    width: 1200px;
+  }
 }
