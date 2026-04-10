@@ -169,7 +169,7 @@
   .contact .hero-img {
   width: 100%;
   height: 620px;
-  background: url(../img/contact/contact-student-bg-hero-tablet.png) no-repeat;
+  background: url(../img/contact/Banner-bg-hero-tablet.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -181,22 +181,36 @@
   font-size: 32px;
   line-height: 150%;
 }
-.blog .hero-img {
+.contact.main-header {
+  background-color: var(--background-terciary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative; 
+}
+ .contact.navigation-menu label {
+    display: block;
+    order: 2;
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    transform: translatey(-50%);
+  }
+  .contact.navigation-menu nav {
+    display: none;
+  }
+  .contact[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
   width: 100%;
-  height: 620px;
-  background: url(../img/travel-blog/blog-bg-hero-tablet.png) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: var(--background-terciary-color);
 }
-.blog .hero-content {
-  padding: 159px 94px 158px 95px;
-}
-.blog .hero-content p {
-  width: 579px;
-  font-size: 32px;
- 
-  
-  line-height: 150%;
+br {
+  display: none;
 }
 }
 
@@ -233,7 +247,7 @@
 .contact .hero-img {
   width: 100%;
   height: 620px;
-  background: url(../img/contact/contact-student-bg-hero-desktop.png) no-repeat;
+  background: url(../img/contact/contact-bg-hero-desktop.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
